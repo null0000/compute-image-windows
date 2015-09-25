@@ -83,7 +83,7 @@ namespace Google.ComputeEngine.Common
         }
 
         /// <summary>
-        /// Remove a list of values from a MultiString value entry.
+        /// Remove a list of values from a MultiString value entry using RemoveMultiStringValue.
         /// </summary>
         public void RemoveMultiStringValues(string registryKeyName, List<string> registryValues)
         {
